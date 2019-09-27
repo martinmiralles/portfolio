@@ -1,0 +1,390 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Martin | Portfolio</title>
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- Plugin  -->
+    <script src="jquery.reflection.js"></script>
+    <script src="jquery.cloud9carousel.js"></script>
+    <script src="jquery.novacancy.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+    <script src="pace.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  </head>
+  <body class="body">
+    <!-- WRAPPER BEGINS -->
+    <div id="preloader">
+        <div class="p">LOADING</div>
+    </div>
+    <div class="wrapper">
+
+      <!---------------------- NAVBAR STARTS ---------------------->
+    <nav>
+        <!-- TOP-LEFT BUTTON -->
+        <span id="brand" class="cool-link">
+            <a href="index.html">Mar</a>
+        </span>
+
+        <!-- TOP-RIGHT BUTTONS -->
+        <ul id="menu">
+            <li class="cool-link">
+                <a href="index.html"><i class="fa fa-home"></i>home</a>
+            </li>
+            <li class="cool-link">
+                <a href="#about-me"><i class="fa fa-address-card"></i>about me</a>
+            </li>
+            <li class="cool-link">
+                <a href="#projects"><i class="fa fa-folder-open"></i>projects</a>
+            </li>
+
+            <li class="cool-link">
+                <a href="#footer"><i class="fa fa-envelope"></i>contact</a>
+            </li>
+        </ul>
+
+        <!-- FOR SMALLER SCREENS -->
+        <div id="toggle">
+          <div class="span">menu</div>
+        </div>
+      </nav>
+
+    <div id="resize">
+
+        <div class="close-btn">close</div>
+        <ul id="menu">
+            <li class="cool-link">
+                <a href="index.html"><i class="fa fa-home"></i>home</a>
+            </li>
+            <li class="cool-link">
+                <a href="#about-me"><i class="fa fa-address-card"></i>about me</a>
+            </li>
+            <li class="cool-link">
+                <a href="#projects"><i class="fa fa-folder-open"></i>projects</a>
+            </li>
+            
+            <li class="cool-link">
+                <a href="#footer"><i class="fa fa-envelope"></i>contact</a>
+            </li>
+        </ul>
+    </div>
+      <!---------------------- NAVBAR ENDS ---------------------->
+
+      <!---------------------- HERO SECTION STARTS ---------------------->
+    <div class="hero">
+        <div id="particles-js">
+            <div class="header">
+                <h1 class="line">Martin Miralles.</h1>
+            </div>   
+        </div>
+    </div>
+
+    <div class="arrows">
+        <div class="arrow-down1"></div>
+        <div class="arrow-down2"></div>
+        <div class="arrow-down3"></div>
+    </div>
+
+      <!---------------------- HERO SECTION ENDS ---------------------->
+
+      <!---------------------- ABOUT-ME START ---------------------->
+
+    <div id="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 img one">
+                    <img src="./images/school.jpg" class="ione" alt="" />
+                </div>           
+                <div class="col-lg-2 col-sm-12 txt text-1">
+                    <h1>Current student</h1>
+                </div>
+                <div class="col-lg-4 col-sm-12 txt text-2">
+                    <!-- <p>I am enrolled in the Software Engineering Technology program at Centennial College, Progress Campus.</p>
+                    <p>At the moment, I am in my 2nd year of the program.</p> -->
+                    <p><span class="var">var</span> school = "Centennial College";</p>
+                    <p><span class="var">var</span> program = "Software Eng. Tech.";</p>
+                    <p><span class="var">var</span> year = 2;</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 txt text-3">
+                    <!-- <p>To work on my programming skills, it has become a hobby of mine to do personal projects.</p>
+                    <p>These projects are inspired by Dribbble posts and tutorials from Youtubers and sites like Udemy and CodingPhase.</p>
+                    <p>See some of my personal projects below!</p> -->
+                    <p><span class="var">var</span> hobby = personalProjects;</p>
+                    <p>personalProjects = programmingSkills++;</p>
+
+                    <p><span class="var">var</span> skills = ['Javascript', 'HTML/CSS', 'React', 'jQuery', 'Adonis.js', 'Node.js', 'MongoDB Atlas', 'Responsive Design', 'Chrome DevTools', 'C#', 'Java', 'SQL'];</p>
+
+                </div>
+                <div class="col-lg-2 txt text-4">
+                    <h1>Aspiring developer</h1>
+                </div>
+                <div class="col-lg-6 img two">
+                    <img src="./images/profile.jpg" class="itwo" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <!---------------------- ABOUT-ME ENDS ---------------------->
+
+      <!---------------------- PROJECTS START ---------------------->
+
+      <div id="projects">
+        <!-- CLOUD9 CAROUSEL of PROJECTS-->
+        <div id="wrap">
+            <div class="neon-text">
+                <p id="neonthis">
+                    Projects
+                </p>
+            </div>        
+            <div class="nav noselect">
+                <button class="left"><i class="fa fa-arrow-left"></i></button>
+                <button class="right"><i class="fa fa-arrow-right"></i></button>
+            </div>
+            <p id="item-title"></p>
+            <div id="showcase">
+                <a href="project1.html">
+                    <img
+                    src="./images/project1.PNG"
+                    id="project1.html"
+                    alt="Business Professional Page"
+                    class="cloud9-item"
+                    />
+                </a>
+                <a href="project2.html">
+                    <img
+                    src="./images/project2.PNG"
+                    alt="Vacation Room App"
+                    class="cloud9-item"
+                    id="project1.html"
+                    />
+                </a>
+                <a href="project3.html">
+                    <img
+                    src="./images/project3.PNG"
+                    alt="Superhero Equipment Store"
+                    class="cloud9-item"
+                    id="project1.html"
+                    />
+                </a>
+            </div>
+        </div>   
+        </div>
+    </div>
+
+    <!---------------------- PROJECTS END ---------------------->
+
+    <!--------------- footer starts here --------------->
+    <div id="footer">
+        <div class="container">
+            <br /><br />  
+            <div class="hr">
+                <div class="row"></div>
+            </div>
+            <br /><br />
+            <div class="info">
+                <div class="row">
+                    <div class="col-lg-4" id="email">
+                        <p>email me</p>
+                        <h5>martinmiralles66@gmail.com</h5>
+                        <br /><br />
+                    </div> 
+                    <div class="col-lg-5">
+                    </div>
+                    <div class="col-lg-3" id="media">
+                        <p>connect via</p>
+                        <ul>
+                            <li ><a href="https://github.com/martinmiralles"><i class="fa fa-github"></i>github</a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i>linked</a></li>
+                        </ul>
+                        <br /><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------- footer ends here --------------->
+</div>
+
+
+
+    <!-- LOADER EFFECT -->
+    <script>
+        paceOptions = {
+            ajax: false,
+            document: true,
+            eventLag: false
+        };
+
+        Pace.on("done", function () {
+            $(".p")
+                .delay(500)
+                .animate(
+                    { top: "30%", opacity: "0" },
+                    3000,
+                    $.bez([0.19, 1, 0.22, 1])
+                );
+
+            $("#preloader")
+                .delay(1500)
+                .animate({ top: "-100%" }, 2000, $.bez([0.19, 1, 0.22, 1]));
+
+            TweenMax.from(".wrapper", 2, {
+                delay: 2.8,
+                y: 10,
+                opacity: 0,
+                ease: Expo.easeInOut
+            });
+        });
+    </script>
+
+    <script>
+    $("#toggle").click(function () {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+        });
+        $("#resize ul li a").click(function () {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+        });
+        $(".close-btn").click(function () {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+        });</script>
+
+    <!-- CAROUSEL EFFECTS -->
+    <script type="text/javascript">
+      $(function() {
+        var showcase = $("#showcase"), title = $('item-title');
+
+        showcase.Cloud9Carousel({
+          yPos: 42,
+          yRadius: 48,
+          mirrorOptions: {
+            gap: 12,
+            height: 0.2
+          },
+          buttonLeft: $(".nav > .left"),
+          buttonRight: $(".nav > .right"),
+          autoPlay: false,
+          bringToFront: false,
+
+          onRendered: showcaseUpdated,
+          onLoaded: function() {
+            showcase.css("visibility", "visible");
+            showcase.css("display", "none");
+            showcase.fadeIn(1500);
+          }
+        });
+
+        function showcaseUpdated(showcase) {
+        var title = $("#item-title").html(
+            $(showcase.nearestItem()).attr("alt")
+        );
+
+        var c = Math.cos((showcase.floatIndex() % 1) * 2 * Math.PI);
+          title.css("opacity", 0.5 + 0.5 * c);
+        }
+
+        $(".nav > button").click(function(e) {
+          var b = $(e.target).addClass("down");
+          setTimeout(function() {
+            b.removeClass("down");
+          }, 80);
+        });
+
+        $(document).keydown(function(e) {
+          switch (e.keyCode) {
+            case 37:
+              $(".nav > .left").click();
+              break;
+
+            case 39:
+              $(".nav > .right").click();
+          }
+        });
+      });
+    </script>
+
+    <!-- NEON effects -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#neonthis").novacancy({
+                reblinkProbability: 0.5,
+                blinkMin: 0.1,
+                blinkMax: 0.3,
+                loopMin: 0.5,
+                loopMax: 2,
+                color: "white",
+                glow: ["0 0 80px white", "0 0 30px white", "0 0 6px white"],
+                off: 2,
+                blink: 0,
+                autoOn: true
+            });
+        });
+    </script>
+
+    <!-- TEXT REVEAL, baffleJS -->
+    <script type="text/javascript">
+        const text = baffle(".line");
+        text.set({
+            characters: '█▓█ ▒░/▒░ █░▒▓▒ ▓/░>',
+            // characters: '*',
+            speed: 120
+        });
+        text.start();
+        text.reveal(4000);
+    </script>
+
+    <script type="text/javascript">
+        var image = document.getElementsByClassName("ione");
+        new simpleParallax(image, {
+            scale: 1.4,
+            orientation: "left"
+        });
+
+        var image = document.getElementsByClassName("itwo");
+        new simpleParallax(image, {
+            scale: 1.8,
+            orientation: "right"
+        });
+    </script>
+
+    <!-- HERO PARTICLE EFFECTS -->
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+</html>
