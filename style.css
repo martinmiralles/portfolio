@@ -638,6 +638,23 @@ button .slider-right {
   top: 65%;
 }
 
+@media only screen and (max-width: 600px) {
+  .text-slider-wrapper {
+    top: 65% !important;
+  }
+
+  .slider-control {
+    bottom: 27%;
+    left: 25%;
+    margin-left: 1rem;
+  }
+
+  .text-slide .project-link a {
+    font-size: 0.8rem;
+    padding: none;
+  }
+}
+
 .text-slider {
   margin: 0%;
   padding: 0%;
@@ -685,7 +702,7 @@ button .slider-right {
   }
 
   .block-3 {
-    width: 12%;
+    display: none;
   }
 
   .slide-slick {
@@ -698,7 +715,7 @@ button .slider-right {
 
   .text-slider-wrapper {
     position: absolute;
-    top: 60% !important;
+    top: 65% !important;
   }
 
   .slider-control {
@@ -716,40 +733,71 @@ button .slider-right {
   padding: 40px 0;
 }
 
+.footer-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-title h1 {
+  font-size: 75px !important;
+  background: transparent;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.email-container {
+  /* margin: 3rem 0; */
+}
+
+.footer-content a {
+  font-size: 2rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 2rem;
+  margin: 20rem 0;
+  transition: all 0.7s ease-in-out;
+}
+
+.footer-content a:hover {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.footer-links {
+  text-align: center;
+}
+
+.footer-links a {
+  font-size: 2rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 2rem;
+  margin: 20rem 0;
+  transition: all 0.7s ease-in-out;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.github-link {
+  display: inline-block;
+  margin: 3rem;
+}
+
+.linkedin-link {
+  display: inline-block;
+  margin: 3rem;
+}
+
 .footer li,
 p,
 h4 {
-  font-size: 24px !important;
-}
-
-.footer h4 {
-  font-weight: lighter;
-  color: #fff;
-}
-
-.footer p {
-  color: grey;
-  font-weight: lighter;
-}
-
-.footer li {
-  font-weight: lighter;
-  color: #fff;
-  padding-left: 20px;
-  font-size: 18px !important;
-  /* width: 250px !important; */
-}
-
-.footer-icons ul li a {
-  text-decoration: none;
-}
-
-.footer-icons ul {
-  list-style-type: none;
-}
-
-.footer-icons li {
-  margin-bottom: 1rem;
+  font-size: 1.1rem !important;
 }
 
 .footer-icon {
@@ -762,6 +810,21 @@ h4 {
 @media (max-width: 900px) {
   .footer .container {
     width: 92% !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .footer-title {
+    font-size: 0.6rem !important;
+  }
+  .email-container a {
+    font-size: 1.1rem;
+  }
+
+  .footer-links a,
+  .footer-icon {
+    font-size: 1rem;
   }
 }
 
