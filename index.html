@@ -1,390 +1,505 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Complete Corportate Website</title>
 
-    <title>Martin | Test</title>
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="style.css">
 
-    <!-- STYLESHEET -->
-    <link rel="stylesheet" href="style.css" />
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <!-- GOOGLE FONT -->
-    <link
+      <!-- GOOGLE FONT -->
+      <link
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600&display=swap"
       rel="stylesheet"
-    />
+      />
 
-    <!-- FONT AWESOME -->
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+      <!-- icons -->
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+      <!-- for on scroll animations -->
+      <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
+      <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+      <!-- font-awesome icons -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- TEXT REVEAL -->
+      <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+
+    <!-- Slick -->
     <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
     />
 
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-    <!-- Jquery CDN -->
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<body>
+      
+      <a name="home"></a>
+      <div class="wrapper">
 
-    <!-- Plugin  -->
-    <script src="jquery.reflection.js"></script>
-    <script src="jquery.cloud9carousel.js"></script>
-    <script src="jquery.novacancy.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
-    <script src="pace.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-  </head>
-  <body class="body">
-    <!-- WRAPPER BEGINS -->
-    <div id="preloader">
-        <div class="p">LOADING</div>
-    </div>
-    <div class="wrapper">
+            <!--------------- hero section starts here --------------->
 
-      <!---------------------- NAVBAR STARTS ---------------------->
-    <nav>
-        <!-- TOP-LEFT BUTTON -->
-        <span id="brand" class="cool-link">
-            <a href="index.html">Mar</a>
-        </span>
+            <div id="top "class="particles-container">
+                  <div id="particles-js"></div>
+                  <div class="arrow-down arrow1"></div>
+                  <div class="arrow-down arrow2"></div>
+                  <div class="arrow-down arrow3"></div>
+            </div>
 
-        <!-- TOP-RIGHT BUTTONS -->
-        <ul id="menu">
-            <li class="cool-link">
-                <a href="index.html"><i class="fa fa-home"></i>home</a>
-            </li>
-            <li class="cool-link">
-                <a href="#about-me"><i class="fa fa-address-card"></i>about me</a>
-            </li>
-            <li class="cool-link">
-                <a href="#projects"><i class="fa fa-folder-open"></i>projects</a>
-            </li>
 
-            <li class="cool-link">
-                <a href="#footer"><i class="fa fa-envelope"></i>contact</a>
-            </li>
-        </ul>
 
-        <!-- FOR SMALLER SCREENS -->
-        <div id="toggle">
-          <div class="span">menu</div>
-        </div>
-      </nav>
-
-    <div id="resize">
-
-        <div class="close-btn">close</div>
-        <ul id="menu">
-            <li class="cool-link">
-                <a href="index.html"><i class="fa fa-home"></i>home</a>
-            </li>
-            <li class="cool-link">
-                <a href="#about-me"><i class="fa fa-address-card"></i>about me</a>
-            </li>
-            <li class="cool-link">
-                <a href="#projects"><i class="fa fa-folder-open"></i>projects</a>
-            </li>
-            
-            <li class="cool-link">
-                <a href="#footer"><i class="fa fa-envelope"></i>contact</a>
-            </li>
-        </ul>
-    </div>
-      <!---------------------- NAVBAR ENDS ---------------------->
-
-      <!---------------------- HERO SECTION STARTS ---------------------->
-    <div class="hero">
-        <div id="particles-js">
             <div class="header">
-                <h1 class="line">Martin Miralles.</h1>
-            </div>   
-        </div>
-    </div>
-
-    <div class="arrows">
-        <div class="arrow-down1"></div>
-        <div class="arrow-down2"></div>
-        <div class="arrow-down3"></div>
-    </div>
-
-      <!---------------------- HERO SECTION ENDS ---------------------->
-
-      <!---------------------- ABOUT-ME START ---------------------->
-
-    <div id="about-me">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 img one">
-                    <img src="./images/school.jpg" class="ione" alt="" />
-                </div>           
-                <div class="col-lg-2 col-sm-12 txt text-1">
-                    <h1>Current student</h1>
-                </div>
-                <div class="col-lg-4 col-sm-12 txt text-2">
-                    <!-- <p>I am enrolled in the Software Engineering Technology program at Centennial College, Progress Campus.</p>
-                    <p>At the moment, I am in my 2nd year of the program.</p> -->
-                    <p><span class="var">var</span> school = "Centennial College";</p>
-                    <p><span class="var">var</span> program = "Software Eng. Tech.";</p>
-                    <p><span class="var">var</span> year = 2;</p>
-
-                </div>
+                  <h1 class="line">Martin Miralles</h1>
+                  <!-- <h5>Developer In-the-making</h5> -->
             </div>
-            <div class="row">
-                <div class="col-lg-4 txt text-3">
-                    <!-- <p>To work on my programming skills, it has become a hobby of mine to do personal projects.</p>
-                    <p>These projects are inspired by Dribbble posts and tutorials from Youtubers and sites like Udemy and CodingPhase.</p>
-                    <p>See some of my personal projects below!</p> -->
-                    <p><span class="var">var</span> hobby = personalProjects;</p>
-                    <p>personalProjects = programmingSkills++;</p>
 
-                    <p><span class="var">var</span> skills = ['Javascript', 'HTML/CSS', 'React', 'jQuery', 'Adonis.js', 'Node.js', 'MongoDB Atlas', 'Responsive Design', 'Chrome DevTools', 'C#', 'Java', 'SQL'];</p>
 
+
+            <!--------------- hero section ends here --------------->
+
+            <!--------------- NAVBAR starts here --------------->
+
+            <nav class="nav">
+                  <span id="brand">
+                        <a href="index.html"  class="cool-link">M.M.</a>
+                  </span>
+
+                  <ul id="menu">
+                        <li>
+                              <a href="#top" class="cool-link">
+                                    
+                              <ion-icon name="home" class="nav-icon"></ion-icon>home</a>
+                        </li>
+                        <li>
+                              <a href="#about" class="cool-link">
+                                    <ion-icon name="contact" class="nav-icon"></ion-icon>
+                                    about-me
+                              </a>
+                        </li>
+                        <li>
+                              <a href="#skills" class="cool-link"><ion-icon name="laptop" class="nav-icon"></ion-icon>skills</a>
+                        </li>
+                        <li>
+                              <a href="#projects" class="cool-link"><ion-icon name="folder" class="nav-icon"></ion-icon>projects</a>
+                        </li>
+            
+                        <li>
+                              <a href="#contact" class="cool-link"><ion-icon name="home" class="nav-icon"></ion-icon>contact</a>
+                        </li>
+                  </ul>
+
+                  <div id="toggle">
+                        <div class="span">menu</div>
+                  </div>
+
+            </nav>
+
+            <div id="resize">
+                  <div class="close-btn">close</div>
+
+                  <ul id="menu">
+                        <li>
+                              <a href="index.html" class="cool-link">
+                                    
+                              <ion-icon name="home" class="nav-icon"></ion-icon>home</a>
+                        </li>
+                        <li>
+                              <a href="#about" class="cool-link">
+                                    <ion-icon name="contact" class="nav-icon"></ion-icon>
+                                    about-me
+                              </a>
+                        </li>
+                        <li>
+                              <a href="#skills" class="cool-link"><ion-icon name="laptop" class="nav-icon"></ion-icon>skills</a>
+                        </li>
+                        <li>
+                              <a href="#projects" class="cool-link"><ion-icon name="folder" class="nav-icon"></ion-icon>projects</a>
+                        </li>
+            
+                        <li>
+                              <a href="#contact" class="cool-link"><ion-icon name="home" class="nav-icon"></ion-icon>contact</a>
+                        </li>
+                  </ul>
+            </div>
+
+            <!--------------- NAVBAR ends here --------------->
+
+            <div class="content">
+
+            <!--------------- ABOUT section starts here --------------->
+
+            <!-- <a name="about"></a> -->
+            <section id="about">
+                  <div class="container-fluid">
+                        <div class="section-data">
+                              <div class="about-title">
+                                    <div class="square"></div>
+                                    <h1>
+                                          My Intro
+                                    </h1>
+                              </div>
+                              <div class="row">
+                                    <div class="col-md-12">
+                                          <div class="about-content">
+                                                <div class="about-text">
+                                                      <p>i am a centennial college student.</p>
+                                                      <p>i am a software engineering student.</p>
+                                                      <p>i am an aspiring developer.</p>
+                                                      <p>i am working on personal projects.</p>
+                                                      <p>i am leveling up my programming skills. </p>
+                                                      <p class="note">(probably doing a Youtube tutorial at the moment)</p>
+                                                      
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+           </section>
+
+            <!--------------- about section ends here --------------->
+
+            <!--------------- SKILLS section starts here --------------->
+
+           <section id="skills" class="skills">
+            <div class="container-fluid">
+                  <div class="section-data">
+                        <div class="skills-title">
+                              <div class="square"></div>
+                              <h1>
+                                    Skills
+                              </h1>
+                        </div>      
+
+                        <div class="skills-content">
+                              <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-3">
+                                          <div class="box one">
+                                                <ion-icon name="color-palette" class="skills-icon"></ion-icon>
+                                                <h5>Front-End Development</h5>
+                                                <p>Experience with HTML/CSS,JavaScript, libraries like jQuery and React, and making applications responsive for different devices. Atom and VSCode are my choice of IDEs.  And I am able to use the DevTool for debugging styling issues.</p>
+                                                <div class="row text-center">
+                                                      <div class="col-md-6">
+                                                            <ion-icon name="logo-html5"></ion-icon>
+                                                      </div>
+                                                      <div class="col-md-6">
+                                                            <ion-icon name="logo-css3"></ion-icon>
+                                                      </div>
+                                                </div>
+                                                
+                                          </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                          <div class="box two">
+                                                <ion-icon name="paper" class="skills-icon"></ion-icon>
+                                                <h5>General</h5>
+                                                <p>Knowlegeable with the concept of Version Control - some of my work can be found on my <a href="https://github.com/martinmiralles" class="skills-link">Github</a>. I use Ubuntu when pushing applications to Github and applying future updates to them -  I can use SourceTree to do this as well. I've deployed applications onto Heroku and Netlify as well; this portfolio is probably hosted on Netlify, at the moment.</p>
+                                                <div class="row text-center">
+                                                      <div class="col-md-6">
+                                                            <ion-icon name="logo-chrome"></ion-icon>
+                                                      </div>
+                                                      <div class="col-md-6">
+                                                            <ion-icon name="logo-github"></ion-icon>
+                                                      </div>
+                                                </div>
+                                               
+                                          </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                          <div class="box three">
+                                                <ion-icon name="business" class="skills-icon"></ion-icon>
+                                                <h5>Back-End Development</h5>
+                                                <p>Written code in Java (Eclipse IDE) and C# (Visual Studios Community IDE).  In terms of databases, I've worked with MySQL WorkBench and MongoDB Atlas.  Currently practicing with Node.js to create API components to modify records in MongoDB, via Postman.</p>
+                                                <div class="row text-center">
+                                                      <div class="col-md-6 col-xm-6">
+                                                            <ion-icon name="logo-nodejs"></ion-icon>
+                                                      </div>
+                                                      <div class="col-md-6 col-xm-6">
+                                                            <ion-icon name="logo-npm"></ion-icon>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-1"></div>
+                              </div>
+                        </div>      
+                  </div>
+            </div>
+           </section>
+
+            <!--------------- SKILLS section ends here --------------->
+
+            <!--------------- PROJECTS section starts here --------------->
+
+      <a name="projects"></a>
+
+      <section id="projects" class="projects">
+            <div class="projects-title">
+                  <div class="square"></div>
+                  <h1>
+                        Projects
+                  </h1>
+            </div>  
+
+            <div class="text-slider-wrapper">
+                  <div class="text-slider">
+                        <div class="text-slide">
+                              <h1>
+                              Professional <br />
+                              business <br />
+                              site.
+                              </h1>
+                              <div class="project-link">
+                                    <a href="./pages/project1.html">
+                                                <ion-icon name="information-circle-outline"></ion-icon>
+                                                View Project Details
+                                                
+                                    </a>
+                              </div>
+                                    
+                        </div>
+                        <div class="text-slide">
+                              <h1>
+                              Vacation <br />rooms <br />
+                              app.
+                              </h1>
+                              <div class="project-link">
+                                    <a href="./pages/project2.html">
+                                                <ion-icon name="information-circle-outline"></ion-icon>
+                                                View Project Details
+                                    </a>
+                              </div>
+                        </div>
+                        <div class="text-slide">
+                              <h1>
+                              Superhero  <br />
+                              eCommerce <br />app.
+                              </h1>
+                              <div class="project-link">
+                                    <a href="./pages/project3.html">
+                                                <ion-icon name="information-circle-outline"></ion-icon>
+                                                View Project Details
+                                    </a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+                <div class="slider-control">
+                  <div class="prev">
+                    <button type="button"><ion-icon name="arrow-back" class="slider-left"></ion-icon></button>
+                  </div>
+                  <div class="next">
+                    <button type="button">
+                      <ion-icon name="arrow-forward" class="slider-right"></ion-icon>
+                    </button>
+                  </div>
                 </div>
-                <div class="col-lg-2 txt text-4">
-                    <h1>Aspiring developer</h1>
+
+                <div class="blocks">
+                  <div class="block-1"></div>
+                  <div class="block-2"></div>
+                  <div class="block-3"></div>
                 </div>
-                <div class="col-lg-6 img two">
-                    <img src="./images/profile.jpg" class="itwo" alt="" />
+
+                <div class="overlay"></div>
+
+                <div class="image-slider">
+                  <div
+                  class="image-slide"
+                  id="one"
+                  style="background: url(project1.jpg) no-repeat 100% 100%; background-size: cover; -webkit-filter: grayscale(80%);"
+                  ></div>
+                  
+                <div
+                  class="image-slide"
+                  id="two"
+                  style="background: url(project2.jpg) no-repeat 100% 100%; background-size: cover; -webkit-filter: grayscale(80%);"
+                ></div>
+                <div
+                  class="image-slide"
+                  id="three"
+                  style="background: url(project3.jpg) no-repeat 100% 100%; background-size: cover; -webkit-filter: grayscale(80%);"
+                ></div>
                 </div>
-            </div>
-        </div>
-    </div>
 
+            
+                  
 
-      <!---------------------- ABOUT-ME ENDS ---------------------->
+      </section>
+            
+            <!--------------- PROJECTS section ends here --------------->
 
-      <!---------------------- PROJECTS START ---------------------->
+            <!--------------- footer starts here --------------->
 
-      <div id="projects">
-        <!-- CLOUD9 CAROUSEL of PROJECTS-->
-        <div id="wrap">
-            <div class="neon-text">
-                <p id="neonthis">
-                    Projects
-                </p>
-            </div>        
-            <div class="nav noselect">
-                <button class="left"><i class="fa fa-arrow-left"></i></button>
-                <button class="right"><i class="fa fa-arrow-right"></i></button>
-            </div>
-            <p id="item-title"></p>
-            <div id="showcase">
-                <a href="project1.html">
-                    <img
-                    src="./images/project1.PNG"
-                    id="project1.html"
-                    alt="Business Professional Page"
-                    class="cloud9-item"
-                    />
-                </a>
-                <a href="project2.html">
-                    <img
-                    src="./images/project2.PNG"
-                    alt="Vacation Room App"
-                    class="cloud9-item"
-                    id="project1.html"
-                    />
-                </a>
-                <a href="project3.html">
-                    <img
-                    src="./images/project3.PNG"
-                    alt="Superhero Equipment Store"
-                    class="cloud9-item"
-                    id="project1.html"
-                    />
-                </a>
-            </div>
-        </div>   
-        </div>
-    </div>
-
-    <!---------------------- PROJECTS END ---------------------->
-
-    <!--------------- footer starts here --------------->
-    <div id="footer">
-        <div class="container">
-            <br /><br />  
-            <div class="hr">
-                <div class="row"></div>
-            </div>
-            <br /><br />
-            <div class="info">
-                <div class="row">
-                    <div class="col-lg-4" id="email">
-                        <p>email me</p>
-                        <h5>martinmiralles66@gmail.com</h5>
+            <div class="footer">
+                  <div class="container">
+                        <br /><br />  
+                        <div class="hr">
+                            <div class="row"></div>
+                        </div>
                         <br /><br />
-                    </div> 
-                    <div class="col-lg-5">
+                        <div class="info">
+                            <div class="row">
+                                <div class="col-md-4 footer-email">
+                                    <p>email me</p>
+                                    <h5>martinmiralles66@gmail.com</h5>
+                                    <br /><br />
+                                </div> 
+                                <div class="col-md-5">
+                                </div>
+                                <div class="col-md-2 footer-icons">
+                                    <p>connect via</p>
+                                    <ul>
+                                        <li ><a href="https://github.com/martinmiralles" class="cool-link"><ion-icon name="logo-github" class="footer-icon github"></ion-icon>github</a></li>
+                                        
+                                        <li><a href="https://github.com/martinmiralles" class="cool-link"><ion-icon name="logo-linkedin" class="footer-icon linkedin"></ion-icon>linked</a></li>
+                                    </ul>
+                                    <br /><br />
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-3" id="media">
-                        <p>connect via</p>
-                        <ul>
-                            <li ><a href="https://github.com/martinmiralles"><i class="fa fa-github"></i>github</a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i>linked</a></li>
-                        </ul>
-                        <br /><br />
-                    </div>
-                </div>
             </div>
-        </div>
-    </div>
-    <!--------------- footer ends here --------------->
-</div>
+            <!--------------- footer ends here --------------->
+
+            </div>
+
+      </div>
+      
 
 
 
-    <!-- LOADER EFFECT -->
-    <script>
-        paceOptions = {
-            ajax: false,
-            document: true,
-            eventLag: false
-        };
+<!-- HERO PARTICLE EFFECTS -->
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>
 
-        Pace.on("done", function () {
-            $(".p")
-                .delay(500)
-                .animate(
-                    { top: "30%", opacity: "0" },
-                    3000,
-                    $.bez([0.19, 1, 0.22, 1])
-                );
-
-            $("#preloader")
-                .delay(1500)
-                .animate({ top: "-100%" }, 2000, $.bez([0.19, 1, 0.22, 1]));
-
-            TweenMax.from(".wrapper", 2, {
-                delay: 2.8,
-                y: 10,
-                opacity: 0,
-                ease: Expo.easeInOut
-            });
-        });
-    </script>
-
-    <script>
-    $("#toggle").click(function () {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-        });
-        $("#resize ul li a").click(function () {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-        });
-        $(".close-btn").click(function () {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-        });</script>
-
-    <!-- CAROUSEL EFFECTS -->
-    <script type="text/javascript">
-      $(function() {
-        var showcase = $("#showcase"), title = $('item-title');
-
-        showcase.Cloud9Carousel({
-          yPos: 42,
-          yRadius: 48,
-          mirrorOptions: {
-            gap: 12,
-            height: 0.2
-          },
-          buttonLeft: $(".nav > .left"),
-          buttonRight: $(".nav > .right"),
-          autoPlay: false,
-          bringToFront: false,
-
-          onRendered: showcaseUpdated,
-          onLoaded: function() {
-            showcase.css("visibility", "visible");
-            showcase.css("display", "none");
-            showcase.fadeIn(1500);
-          }
-        });
-
-        function showcaseUpdated(showcase) {
-        var title = $("#item-title").html(
-            $(showcase.nearestItem()).attr("alt")
-        );
-
-        var c = Math.cos((showcase.floatIndex() % 1) * 2 * Math.PI);
-          title.css("opacity", 0.5 + 0.5 * c);
-        }
-
-        $(".nav > button").click(function(e) {
-          var b = $(e.target).addClass("down");
-          setTimeout(function() {
-            b.removeClass("down");
-          }, 80);
-        });
-
-        $(document).keydown(function(e) {
-          switch (e.keyCode) {
-            case 37:
-              $(".nav > .left").click();
-              break;
-
-            case 39:
-              $(".nav > .right").click();
-          }
-        });
+<!-- HERO H1 REVEAL -->
+<script type="text/javascript">
+      const text = baffle(".line");
+      text.set({
+          characters: '█▓█ ▒░/▒░ █░▒▓▒ ▓/░>',
+          // characters: '*',
+          speed: 120
       });
-    </script>
+      text.start();
+      text.reveal(4000, 2000);
+</script>
 
-    <!-- NEON effects -->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#neonthis").novacancy({
-                reblinkProbability: 0.5,
-                blinkMin: 0.1,
-                blinkMax: 0.3,
-                loopMin: 0.5,
-                loopMax: 2,
-                color: "white",
-                glow: ["0 0 80px white", "0 0 30px white", "0 0 6px white"],
-                off: 2,
-                blink: 0,
-                autoOn: true
-            });
+<!-- SMALL SCREEN MENU TOGGLE -->
+<script>
+$("#toggle").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+      $("#resize ul li a").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+      $(".close-btn").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".nav");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+// SCROLL EFFECTS
+new WOW().init();
+
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
         });
-    </script>
+      }
+    }
+  });
+</script>
 
-    <!-- TEXT REVEAL, baffleJS -->
-    <script type="text/javascript">
-        const text = baffle(".line");
-        text.set({
-            characters: '█▓█ ▒░/▒░ █░▒▓▒ ▓/░>',
-            // characters: '*',
-            speed: 120
-        });
-        text.start();
-        text.reveal(4000);
-    </script>
 
-    <script type="text/javascript">
-        var image = document.getElementsByClassName("ione");
-        new simpleParallax(image, {
-            scale: 1.4,
-            orientation: "left"
-        });
 
-        var image = document.getElementsByClassName("itwo");
-        new simpleParallax(image, {
-            scale: 1.8,
-            orientation: "right"
-        });
-    </script>
+<!-- SLICK JS Carousel effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+<script src="slick.js"></script>
+<script>
+  var sickPrimary = {
+    autoplay: false,
+    autoplaySpeed: 2400,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    speed: 1800,
+    cssEase: "cubic-bezier(.84, 0, .08, .99)",
+    asNavFor: ".text-slider",
+    centerMode: true,
+    prevArrow: $(".prev"),
+    nextArrow: $(".next")
+  };
 
-    <!-- HERO PARTICLE EFFECTS -->
-    <script type="text/javascript" src="particles.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+  var sickSecondary = {
+    autoplay: false,
+    autoplaySpeed: 2400,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 1800,
+    cssEase: "cubic-bezier(.84, 0, .08, .99)",
+    asNavFor: ".image-slider",
+    prevArrow: $(".prev"),
+    nextArrow: $(".next")
+  };
 
-  </body>
+  $(".image-slider").slick(sickPrimary);
+  $(".text-slider").slick(sickSecondary);
+</script>
+
+</body>
 </html>
