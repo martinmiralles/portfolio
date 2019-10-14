@@ -638,6 +638,16 @@ button .slider-right {
   top: 65%;
 }
 
+@media only screen and (min-width: 992px) {
+  .text-slider-wrapper {
+    top: 60% !important;
+  }
+
+  .slider-control {
+    bottom: 25%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .text-slider-wrapper {
     top: 65% !important;
@@ -857,7 +867,7 @@ h4 {
 }
 .project-header .project-links .project-netlify:hover {
   background: white;
-  color: black;
+  color: black !important;
 }
 
 .project-header .project-links .project-github {
@@ -870,7 +880,7 @@ h4 {
 
 .project-header .project-links .project-github:hover {
   background: white;
-  color: black;
+  color: black !important;
 }
 
 .project-content .project-details {
